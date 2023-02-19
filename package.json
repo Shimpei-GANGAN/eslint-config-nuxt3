@@ -1,0 +1,9 @@
+{
+  "description": "ESLint rules for Nuxt3 for myself.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT"
+}
