@@ -14,13 +14,7 @@ module.exports = {
         groups: ['props', 'setup'],
       },
     ],
+    '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
   },
-  overrides: [
-    {
-      rules: {
-        '@typescript-eslint/no-unused-vars': 'off',
-      },
-    },
-  ],
 };
