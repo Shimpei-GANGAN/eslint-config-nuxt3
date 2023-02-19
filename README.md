@@ -63,3 +63,26 @@ $ npm i @nuxtjs/eslint-config-typescript \
         eslint-config-prettier \
         eslint-plugin-unused-imports
 ```
+
+## `eslint-config-nuxt3-typescript-vuetify3`
+
+<span>
+  <!-- Vuetify3 ESLint packages -->
+  <a href="https://github.com/vuetifyjs/eslint-plugin-vuetify">
+    <img
+      src="https://img.shields.io/badge/Vuetify3 ESLint packages-v2.0.0 beta.2-1867C0.svg?logo=Vuetify"
+      alt="Vuetify3-ESLint-Packages Version Badge"
+    >
+  </a> 
+</span>
+
+### Description
+
+- Based on [eslint-config-nuxt3-typescript](./packages/eslint-config-nuxt3-typescript/).
+- Add ESLint rules for Vuetify3: [eslint-plugin-vuetify](https://github.com/vuetifyjs/eslint-plugin-vuetify)
+
+### Installation
+
+```shell
+$ npm i eslint-plugin-vuetify
+```
