@@ -53,8 +53,11 @@ ESLint rules for Nuxt3 for myself.
 
 ### Installation
 
-```sh
+```shell
 $ npm i -D eslint
+```
+
+```shell
 $ npm i @nuxtjs/eslint-config-typescript \
         prettier \
         eslint-config-prettier \
