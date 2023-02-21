@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    ".prettierrc.js"
   ],
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
@@ -19,18 +20,5 @@
   },
   "peerDependencies": {
     "eslint": "^8.34.0"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "tabWidth": 2,
-    "semi": true,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "useTabs": false,
-    "trailingComma": "all",
-    "bracketSpacing": true,
-    "bracketSameLine": false,
-    "endOfline": "lf",
-    "arrowParens": "always"
   }
 }
