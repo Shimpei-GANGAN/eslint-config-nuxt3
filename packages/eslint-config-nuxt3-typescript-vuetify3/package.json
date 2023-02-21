@@ -1,7 +1,7 @@
 {
-  "name": "@eslint-config-nuxt3/eslint-config-nuxt3-typescript",
+  "name": "@eslint-config-nuxt3/eslint-config-nuxt3-typescript-vuetify3",
   "version": "0.1.0",
-  "description": "ESLint config for Nuxt3 + TypeScript.",
+  "description": "ESLint config for Nuxt3 + Vuetify3 + TypeScript.",
   "private": true,
   "license": "MIT",
   "main": "index.js",
@@ -9,16 +9,8 @@
     "index.js"
   ],
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.4"
-  },
-  "devDependencies": {
-    "eslint": "^8.34.0"
-  },
-  "peerDependencies": {
-    "eslint": "^8.34.0"
+    "@eslint-config-nuxt3/eslint-config-nuxt3-typescript": "0.1.0",
+    "eslint-plugin-vuetify": "2.0.0-beta.2"
   },
   "prettier": {
     "printWidth": 80,
