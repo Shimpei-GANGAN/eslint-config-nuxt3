@@ -6,23 +6,11 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    ".prettierrc.js"
   ],
   "dependencies": {
     "@eslint-config-nuxt3/eslint-config-nuxt3-typescript": "0.1.0",
     "eslint-plugin-vuetify": "2.0.0-beta.2"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "tabWidth": 2,
-    "semi": true,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "useTabs": false,
-    "trailingComma": "all",
-    "bracketSpacing": true,
-    "bracketSameLine": false,
-    "endOfline": "lf",
-    "arrowParens": "always"
   }
 }
