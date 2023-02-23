@@ -50,6 +50,8 @@ ESLint rules for Nuxt3 for myself.
   - [prettier](https://github.com/prettier/prettier)
   - [eslint-config-prettier](https://giddthub.com/prettier/eslint-config-prettier)
   - [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
+  - [@ianvs/prettier-plugin-sort-imports](https://github.com/ianvs/prettier-plugin-sort-imports)
+    - forked from [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports).
 
 ### Installation
 
@@ -61,7 +63,8 @@ $ npm i -D eslint
 $ npm i @nuxtjs/eslint-config-typescript \
         prettier \
         eslint-config-prettier \
-        eslint-plugin-unused-imports
+        eslint-plugin-unused-imports \
+        @ianvs/prettier-plugin-sort-imports
 ```
 
 ## `eslint-config-nuxt3-typescript-vuetify3`

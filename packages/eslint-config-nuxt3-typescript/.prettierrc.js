@@ -10,4 +10,8 @@ module.exports = {
   bracketSameLine: false,
   endOfline: 'lf',
   arrowParens: 'always',
+  importOrderBuiltinModulesToTop: true,
+  importOrderCombineTypeAndValueImports: true,
+  importOrderMergeDuplicateImports: true,
+  importOrderSortSpecifiers: true,
 };
