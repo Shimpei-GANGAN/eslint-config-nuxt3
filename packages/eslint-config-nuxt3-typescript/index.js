@@ -16,5 +16,14 @@ module.exports = {
     ],
     '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx', '*.vue'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': 'error',
+      },
+    },
+  ],
 };
