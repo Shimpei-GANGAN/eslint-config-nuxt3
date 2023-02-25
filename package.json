@@ -4,24 +4,26 @@
   "private": true,
   "version": "0.2.0",
   "license": "MIT",
-  "engines": {},
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@eslint-config-nuxt3/eslint-config-nuxt3-typescript": "0.1.0",
+  "engines": {
+    "node": "^16.19.0 || >=18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-plugin-vuetify": "2.0.0-beta.2",
     "prettier": "^2.8.4"
   },
-  "devDependencies": {
-    "eslint": "^8.34.0"
-  },
-  "peerDependencies": {
-    "eslint": "^8.34.0"
+  "dependencies": {
+    "eslint": "^7.0.0 || ^8.0.0"
   }
 }
