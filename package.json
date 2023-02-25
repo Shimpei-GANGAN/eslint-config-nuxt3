@@ -1,6 +1,6 @@
 {
-  "name": "@Shimpei-GANGAN/eslint-config-nuxt3",
-  "description": "ESLint rules for Nuxt3 for myself.",
+  "name": "@Shimpei-GANGAN/eslint-config-nuxt3-typescript",
+  "description": "ESLint rules for Nuxt3 + TypeScript for myself.",
   "private": true,
   "version": "0.2.0",
   "license": "MIT",
