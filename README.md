@@ -1,7 +1,7 @@
 <div align="center">
   <!-- タイトル -->
   <h1>
-    ESLint rules for Nuxt3
+    ESLint rules for Nuxt3 + TypeScript
   </h1>
   <!-- バッジ一覧 -->
   <span>
@@ -22,9 +22,20 @@
   </span>
 </div>
 
-ESLint rules for Nuxt3 for myself.
+ESLint rules for Nuxt3 + TypeScript for myself.
 
-## `eslint-config-nuxt3-typescript`
+### Installation
+
+```shell
+$ npm i -D @nuxtjs/eslint-config-typescript \
+        prettier \
+        eslint-config-prettier \
+        eslint-plugin-unused-imports \
+        @ianvs/prettier-plugin-sort-imports \
+        eslint-plugin-vuetify
+```
+
+## [eslint-config-nuxt3-typescript/base](./lib/configs/base.js)
 
 <span>
   <!-- Nuxt3 ESLint packages -->
@@ -36,8 +47,6 @@ ESLint rules for Nuxt3 for myself.
   </a> 
 </span>
 
-### Description
-
 - Created based on [@nuxtjs/eslint-config-typescript](https://github.com/nuxt/eslint-config#typescript).
 
   The following settings are extended in based.
@@ -48,26 +57,17 @@ ESLint rules for Nuxt3 for myself.
 - Add ESLint rules and Prettier plugins with custom.
 
   - [prettier](https://github.com/prettier/prettier)
-  - [eslint-config-prettier](https://giddthub.com/prettier/eslint-config-prettier)
+  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+
+## [eslint-config-nuxt3-typescript/recommended](./lib/configs/recommended.js)
+
+- Based on [eslint-config-nuxt3-typescript/base](./lib/configs/base.js).
+- Add ESLint rules and Prettier plugins with custom.
   - [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
   - [@ianvs/prettier-plugin-sort-imports](https://github.com/ianvs/prettier-plugin-sort-imports)
     - forked from [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports).
 
-### Installation
-
-```shell
-$ npm i -D eslint
-```
-
-```shell
-$ npm i @nuxtjs/eslint-config-typescript \
-        prettier \
-        eslint-config-prettier \
-        eslint-plugin-unused-imports \
-        @ianvs/prettier-plugin-sort-imports
-```
-
-## `eslint-config-nuxt3-typescript-vuetify3`
+## [eslint-config-nuxt3-typescript/vuetify3-base](./lib/configs/vuetify3-base.js)
 
 <span>
   <!-- Vuetify3 ESLint packages -->
@@ -79,13 +79,10 @@ $ npm i @nuxtjs/eslint-config-typescript \
   </a> 
 </span>
 
-### Description
+- Based on [eslint-config-nuxt3-typescript/base](./lib/configs/base.js).
+- Add ESLint rules for Vuetify3
+  - [eslint-plugin-vuetify](https://github.com/vuetifyjs/eslint-plugin-vuetify)
 
-- Based on [eslint-config-nuxt3-typescript](./packages/eslint-config-nuxt3-typescript/).
-- Add ESLint rules for Vuetify3: [eslint-plugin-vuetify](https://github.com/vuetifyjs/eslint-plugin-vuetify)
+## [eslint-config-nuxt3-typescript/vuetify3-recommended](./lib/configs/vuetify3-base.js)
 
-### Installation
-
-```shell
-$ npm i eslint-plugin-vuetify
-```
+- Based on [eslint-config-nuxt3-typescript/recommended](./lib/configs/recommended.js) and [eslint-config-nuxt3-typescript/vuetify3-base](./lib/configs/vuetify3-base.js).
