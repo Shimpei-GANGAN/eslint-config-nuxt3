@@ -5,6 +5,10 @@
   "version": "0.2.0",
   "license": "MIT",
   "engines": {},
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "@eslint-config-nuxt3/eslint-config-nuxt3-typescript": "0.1.0",
     "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
