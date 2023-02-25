@@ -1,9 +1,23 @@
 {
+  "name": "@Shimpei-GANGAN/eslint-config-nuxt3",
   "description": "ESLint rules for Nuxt3 for myself.",
-  "workspaces": [
-    "packages/*"
-  ],
   "private": true,
-  "version": "0.1.0",
-  "license": "MIT"
+  "version": "0.2.0",
+  "license": "MIT",
+  "engines": {},
+  "dependencies": {
+    "@eslint-config-nuxt3/eslint-config-nuxt3-typescript": "0.1.0",
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-vuetify": "2.0.0-beta.2",
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.34.0"
+  }
 }
