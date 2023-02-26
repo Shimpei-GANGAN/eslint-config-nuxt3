@@ -27,7 +27,7 @@ ESLint rules for Nuxt3 + TypeScript for myself.
 ### Installation
 
 ```shell
-$ npm i -D @nuxtjs/eslint-config-typescript \
+$ npm i -D @nuxtjs/eslint-config \
         prettier \
         eslint-config-prettier \
         eslint-plugin-unused-imports \
